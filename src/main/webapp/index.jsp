@@ -11,8 +11,12 @@
         body {
             margin: 0;
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to right, #e0f7fa, #e1bee7);
-            color: #333;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+            url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
         }
 
         .navbar {
@@ -47,10 +51,11 @@
 
         .sidebar {
             width: 250px;
-            background: linear-gradient(to bottom, #34495e, #2c3e50);
+            background: linear-gradient(to bottom, rgba(52, 73, 94, 0.9), rgba(44, 62, 80, 0.9));
             color: white;
             padding-top: 30px;
             transition: 0.3s;
+            backdrop-filter: blur(10px);
         }
 
         .sidebar a {
@@ -70,7 +75,7 @@
         }
 
         .sidebar a:hover {
-            background-color: #f39c12;
+            background-color: rgba(243, 156, 18, 0.8);
             border-left: 4px solid white;
             padding-left: 30px;
             transform: scale(1.02);
@@ -85,43 +90,46 @@
         }
 
         .card {
-            background: rgba(255, 255, 255, 0.8);
+            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             padding: 30px;
             border-radius: 16px;
             box-shadow: 0 8px 24px rgba(0,0,0,0.2);
             margin-bottom: 20px;
             transition: transform 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
         .card:hover {
             transform: translateY(-6px);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .card h2 {
             margin-top: 0;
-            color: #2c3e50;
+            color: #fff;
             font-family: 'Roboto', sans-serif;
             font-size: 32px;
         }
 
         .card p {
-            color: #555;
+            color: #ecf0f1;
             font-size: 18px;
         }
 
         .btn {
-            background-color: #8e44ad;
+            background-color: rgba(142, 68, 173, 0.8);
             color: white;
             padding: 12px 24px;
             border-radius: 10px;
             text-decoration: none;
             font-weight: 600;
             transition: background-color 0.3s ease;
+            backdrop-filter: blur(5px);
         }
 
         .btn:hover {
-            background-color: #732d91;
+            background-color: rgba(115, 45, 145, 0.9);
         }
     </style>
 </head>
