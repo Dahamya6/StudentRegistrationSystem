@@ -11,3 +11,7 @@
 0:0:0:0:0:0:0:1 - - [18/May/2025:10:37:49 +0530] "GET /StudentRegistrationSystem/admin/manage HTTP/1.1" 200 4752
 0:0:0:0:0:0:0:1 - - [18/May/2025:10:38:21 +0530] "GET /StudentRegistrationSystem/ HTTP/1.1" 200 4885
 0:0:0:0:0:0:0:1 - - [18/May/2025:10:38:31 +0530] "GET /StudentRegistrationSystem/admin/manage HTTP/1.1" 200 4752
+0:0:0:0:0:0:0:1 - - [18/May/2025:11:07:50 +0530] "GET /StudentRegistrationSystem HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/May/2025:11:07:52 +0530] "GET /StudentRegistrationSystem/ HTTP/1.1" 200 4885
+0:0:0:0:0:0:0:1 - - [18/May/2025:11:08:00 +0530] "GET /StudentRegistrationSystem/admin/manage HTTP/1.1" 200 4752
+0:0:0:0:0:0:0:1 - - [18/May/2025:11:16:35 +0530] "GET /StudentRegistrationSystem/admin/manage HTTP/1.1" 200 4752
